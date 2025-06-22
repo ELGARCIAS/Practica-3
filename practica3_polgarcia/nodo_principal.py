@@ -216,7 +216,7 @@ class Nodoprincipal(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    controller = Controller()
+    controller = Nodoprincipal()
     controller.main()
     rclpy.shutdown()
 
